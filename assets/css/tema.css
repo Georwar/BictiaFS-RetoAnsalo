@@ -1,0 +1,30 @@
+.dark {
+    background-color: #333;
+}
+
+.dark p,
+.dark h1,
+.dark a,
+.dark label {
+    color: #f4f4f4;
+}
+
+.dark .header,
+.dark .footer {
+    box-shadow: 0 0 8px gray;
+}
+
+.retro {
+    background-color: rgb(108, 109, 69);
+}
+
+.retro p,
+.retro h1,
+.retro a {
+    color: #333333;
+}
+
+.retro .header,
+.retro .footer {
+    box-shadow: 0 0 8px #333333;
+}

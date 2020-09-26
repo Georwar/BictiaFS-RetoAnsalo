@@ -1,119 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/tema.css" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
-
-
-
-
-    <main class="container p-3 my-3">
-
-        <h1>RETO ANSALO</h1>
+  <body>
+    <div id="container">
+      <main class="container p-3 my-3">
+        <h1 class="center">RETO ANSALO</h1>
         <form>
-            <div class="form-group">
-                <label for="letras">Letras</label>
-                <input class="form-control" type="text" id="letras" name="letras" placeholder="Readonly input here…"
-                    readonly><br><br>
+          <div class="form-group">
+            <label for="letras">Letras</label>
+            <input
+              class="form-control"
+              type="text"
+              id="letras"
+              name="letras"
+              placeholder="Readonly input here…"
+              readonly
+            /><br /><br />
 
-                <label for="numeros">Numeros</label>
-                <input class="form-control" type="text" id="numeros" name="numeros" placeholder="Readonly input here…"
-                    readonly><br><br>
+            <label for="numeros">Numeros</label>
+            <input
+              class="form-control"
+              type="text"
+              id="numeros"
+              name="numeros"
+              placeholder="Readonly input here…"
+              readonly
+            /><br /><br />
+          </div>
+
+          <div class="form-check">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="retro" />
+              <label class="custom-control-label" for="retro"
+                >ACTIVAR TEMA RETRO</label
+              >
+              <br />
             </div>
-
-            <div class="form-check">
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                    <label class="custom-control-label" for="customSwitch1">ACTIVAR TEMA RETRO</label>
-                    <br>
-
-                </div>
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="customSwitch2">
-                    <label class="custom-control-label" for="customSwitch2">TEMA OSCURO</label>
-                    <br>
-
-                </div>
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="dark" />
+              <label class="custom-control-label" for="dark">TEMA OSCURO</label>
+              <br />
             </div>
-
+          </div>
         </form>
 
-
-
-        <div class="container ">
-            <div class="row ">
-                <div class="col-sm">
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonA1">A-1
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonB2">B-2
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonC3">C-3
-                    </button>
-                </div>
+        <div class="container center">
+          <div class="row">
+            <div class="col-sm">
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonA1"
+              >
+                A-1
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonB2"
+              >
+                B-2
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonC3"
+              >
+                C-3
+              </button>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonD4">D-4
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonE5">E-5
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonF6">F-6
-                    </button>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonD4"
+              >
+                D-4
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonE5"
+              >
+                E-5
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonF6"
+              >
+                F-6
+              </button>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonG7">G-7
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonH8">H-8
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonI9">I-9
-                    </button>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonG7"
+              >
+                G-7
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonH8"
+              >
+                H-8
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonI9"
+              >
+                I-9
+              </button>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonNN">
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonJ0">J-0
-                    </button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl" id="botonReset">RESET
-                    </button>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonNN"
+              ></button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonJ0"
+              >
+                J-0
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn-circle btn-xl"
+                id="botonReset"
+              >
+                RESET
+              </button>
             </div>
+          </div>
         </div>
+      </main>
 
+      <footer class="center">copyright 2020</footer>
+    </div>
 
-
-    </main>
-
-    <footer>
-        copyright 2020
-    </footer>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/tema.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

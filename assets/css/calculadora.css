@@ -1,0 +1,164 @@
+/* input[type="button"]:hover {
+    background-color: slategray;
+    cursor: pointer;
+}
+
+input[type="button"].arit {
+    background-color: maroon;
+}
+
+input[type="button"].igual {
+    background-color: green;
+}
+
+input[type="button"].clear {
+    background-color: orangered;
+}
+
+form {
+    background-color: white;
+}
+
+input[type="text"] {
+    background-color: black;
+    border: 0px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    pointer-events: none;
+}
+
+input[name="txtcaja1"] {
+    height: 20px;
+    font-size: 16px;
+}
+
+input[name="txtcaja2"] {
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+input[type="button"] {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    width: 60px;
+    border: 0px;
+    height: 60px;
+    color: white;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: #f1f1f1;
+} */
+
+body {
+    background-color: tan;
+}
+
+h3 {
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
+
+.box {
+    background-color: #3d4543;
+    height: 310px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 40%;
+}
+
+.display {
+    background-color: #222;
+    width: 220px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    height: 40px;
+}
+
+.display input {
+    position: relative;
+    left: 0px;
+    top: 2px;
+    height: 35px;
+    width: 215px;
+    color: black;
+    background-color: #bccccc;
+    font-size: 21px;
+    text-align: right;
+}
+
+.keys {
+    position: relative;
+    top: 15px;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 17px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+}
+
+.button.gray {
+    color: white;
+    background-color: #006b99;
+    border-bottom: black 2px solid;
+    border-top: 2px #6f6f6f solid;
+}
+
+.button.pink {
+    color: black;
+    background-color: #006b99;
+    border-bottom: black 2px solid;
+}
+
+.button.black {
+    color: white;
+    background-color: #303030;
+    border-bottom: black 2px solid;
+    border-top: 2px 303030 solid;
+}
+
+.button.orange {
+    color: black;
+    background-color: FF9933;
+    border-bottom: black 2px solid;
+    border-top: 2px FF9933 solid;
+}
+
+.gray:active {
+    border-top: black 2px solid;
+    border-bottom: 2px #6f6f6f solid;
+}
+
+.pink:active {
+    border-top: black 2px solid;
+    border-bottom: #ff4561 2px solid;
+}
+
+.black:active {
+    border-top: black 2px solid;
+    border-bottom: #303030 2px solid;
+}
+
+.orange:active {
+    border-top: black 2px solid;
+    border-bottom: FF9933 2px solid;
+}
+
+p {
+    line-height: 10px;
+}
